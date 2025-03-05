@@ -1,0 +1,2 @@
+**API**
+- We fetch api using the desired api url ``fetch("https://bible-api.com/data/web/random")``. ``.then((response) => response.json())`` this is for when response comes back, it runs function to receive the response and then pass the body of response to json.then out of json to javascript ``.then(data => console.log(data))``, the console.log is to first see the contents of the api and know which ones to target and use

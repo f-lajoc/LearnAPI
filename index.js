@@ -1,3 +1,4 @@
+const TitleEl = document.getElementById("title")
 // generate Dog breeds on click
 document
 	.getElementById("image-section")
@@ -27,7 +28,9 @@ document
         document.getElementById(
 					"display"
 				).textContent = `${data.type}: ${data.activity}`;
+			TitleEl.classList.add("fun")
       }
+			
       )
   })
 

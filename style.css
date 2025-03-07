@@ -52,8 +52,8 @@ margin-bottom: 30px;
   animation: myAnim 1s linear 0s 1 normal forwards;
 }
 footer{
-	 opacity: 0.5;
-	text-align:right;
+	 opacity: 0.3;
+	
 }
 @keyframes myAnim {
 	0% {

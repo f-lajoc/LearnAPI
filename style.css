@@ -51,7 +51,10 @@ margin-bottom: 30px;
   /* animation */
   animation: myAnim 1s linear 0s 1 normal forwards;
 }
-
+footer{
+	 opacity: 0.5;
+	text-align:right;
+}
 @keyframes myAnim {
 	0% {
 		animation-timing-function: ease-in;
